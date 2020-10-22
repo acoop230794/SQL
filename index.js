@@ -3,7 +3,7 @@ const express = require("express")
 const app = express();
 //INITIALIZE EXPRESS
 
-const routes = require('routes');
+const routes = require("./routes");
 //SET UP ROUTES TO KEEP INDEX.JS CLEAN
 
 app.use('/', routes);
